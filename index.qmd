@@ -1,0 +1,22 @@
+---
+title: "What is the recipe for success on *GBBO*?"
+---
+
+What ingredients make a star baker? Do those pesky technical challenges *really* matter? Everything you (n)ever wanted to know about Love Production's *The Great British Bake Off*  is answered in graphs, using data from the **bakeoff** package in R. 
+
+As it turns out, people who scored higher in technicals made it farther overall!
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(bakeoff)
+library(tidyverse)
+library(plotly)
+
+read_rds("technical_vs_episodes.rds")
+```
+
+
+*Note: Series 1 had 6 episodes and Series 2 had 8, compared to the 10 from that point on*
