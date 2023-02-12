@@ -11,7 +11,7 @@ technical_vs_episodes <- bakers |>
                        color = season_winner,
                        text = paste("Name:", baker_full, "\n",
                                     "UK Series #:", series))) +
-  geom_jitter(width = 0.2, height = 0.2, size = 2) +
+  geom_jitter(width = 0.2, height = 0.2, size = 2, na.rm = TRUE) +
   scale_x_continuous(breaks = c(1:13)) +
   scale_y_continuous(breaks = c(1:10)) +
   labs(title = "Average Technical Ranking vs. Total Episodes",

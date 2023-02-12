@@ -4,13 +4,27 @@
     "href": "index.html",
     "title": "What is the recipe for success on GBBO?",
     "section": "",
-    "text": "What ingredients make a star baker? Do those pesky technical challenges really matter? Everything you (n)ever wanted to know about Love Production’s The Great British Bake Off is answered in graphs, using data from the bakeoff package in R.\nAs it turns out, people who scored higher in technicals made it farther overall!\n\n\n\n\n\n\nNote: Series 1 had 6 episodes and Series 2 had 8, compared to the 10 from that point on"
+    "text": "What ingredients make a star baker? Do those pesky technical challenges really matter? Everything you (n)ever wanted to know about Love Production’s The Great British Bake Off is answered in graphs, using data from the bakeoff package in R.\nAs it turns out, people who scored higher in technicals made it farther overall!\n\n\n\n\n\n\nNote: Series 1 had 6 episodes and Series 2 had 8, compared to the 10 from that point forward"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Hi! My name is Ava Ransbotham, and as of 2023 I’m a freshman at Newton South High School. I love swimming, writing, art… and graphs, apparently."
+  },
+  {
+    "objectID": "age.html",
+    "href": "age.html",
+    "title": "Age?",
+    "section": "",
+    "text": "With age, you can see it going both ways: younger people might know more new techniques, but older people may have had more experience and seen a wider variety of recipes.\n\n\n\n\n\nWhile the graph shows a slight decrease in episodes appeared as age increases, there are also fewer people above the age of 50 in the competition."
+  },
+  {
+    "objectID": "about.html#about-this-project",
+    "href": "about.html#about-this-project",
+    "title": "About",
+    "section": "About This Project",
+    "text": "About This Project\nThis project was created for https://bootcamp.davidkane.info/, a 4-week course that teaches you the basics of data science visualization (everything in this website I learned through it!). I was inspired, of course, by my all time favorite comfort show, and this dataset: https://bakeoff.netlify.app/"
   }
 ]

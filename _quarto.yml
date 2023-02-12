@@ -4,14 +4,16 @@ project:
 website:
   title: "**Bake Off** the Charts"
   navbar:
+    background: "#FFB3C6"
     left:
       - href: index.qmd
         text: Home
+      - age.qmd
       - about.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: minty
     css: styles.css
     toc: true
 

@@ -19,4 +19,4 @@ read_rds("technical_vs_episodes.rds")
 ```
 
 
-*Note: Series 1 had 6 episodes and Series 2 had 8, compared to the 10 from that point on*
+*Note: Series 1 had 6 episodes and Series 2 had 8, compared to the 10 from that point forward*
