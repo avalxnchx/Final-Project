@@ -8,6 +8,7 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - descriptions.qmd
       - age.qmd
       - about.qmd
 
