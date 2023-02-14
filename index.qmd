@@ -3,7 +3,9 @@ title: "What is the recipe for success?"
 bibliography: bib/references.bib
 ---
 
-What ingredients make a star baker? Do those pesky technical challenges *really* matter? Everything you (n)ever wanted to know about Love Production's *The Great British Bake Off*  is answered, using data from the **bakeoff** package in R. This data was streamlined and applied to graphs demonstrating certain factors' effect on competition results. As it turns out, people who scored higher in technicals made it farther overall!
+What ingredients make a star baker? Do those pesky technical challenges *really* matter? Everything you (n)ever wanted to know about Love Production's *The Great British Bake Off*  is answered, using data from the **bakeoff** package in R. This data was streamlined and applied to graphs demonstrating certain factors' effect on competition results.
+
+As it turns out, people who scored higher in technicals made it farther overall!
 
 ```{r}
 #| echo: false

@@ -18,7 +18,12 @@ age_vs_episodes <- bakers |>
   # the graph looked weirdly square because episodes appeared will always be a whole number,
   # so all points were on the same 10 lines, plus some of the points overlapped
   
-  geom_smooth() +
+  geom_smooth(method = loess, formula = y ~ x, se = FALSE) +
+  
+  # I chose not to include the standard error after Preceptor pointed out my audience... I don't really think
+  # this is for super technical computer people, so that extra information is lost and it will be more confusing
+  # to explain, I think
+  
   labs(title = "Age vs. Total Episodes Appeared",
        subtitle = "There is little to no correlation between age and how far one makes it in the competition",
        x = "Age",
@@ -26,6 +31,9 @@ age_vs_episodes <- bakers |>
 
 write_rds(age_vs_episodes, "age_vs_episodes.rds")
 
-# writing as an rds instead of a png in case I want to add an intereactive element later
+# writing as an rds instead of a png in case I want to add an interactive element later; update: decided
+# it somehow feels rude to identify the people's names with an interactive element because it's about their age?
+# For future graphs I will switch to ggsave(), but honestly just don't want to go through changing everything
+# and deleteing old rds files :)
 
 

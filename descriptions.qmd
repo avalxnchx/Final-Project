@@ -1,5 +1,5 @@
 ---
-title: "Description?"
+title: "Description Length?"
 ---
 
 ## Challenges Crash Course

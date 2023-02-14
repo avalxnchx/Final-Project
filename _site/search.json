@@ -7,41 +7,6 @@
     "text": "What ingredients make a star baker? Do those pesky technical challenges really matter? Everything you (n)ever wanted to know about Love Production’s The Great British Bake Off is answered, using data from the bakeoff package in R. This data was streamlined and applied to graphs demonstrating certain factors’ effect on competition results. As it turns out, people who scored higher in technicals made it farther overall!\n\n\n\n\n\n\nNote: Series 1 had 6 episodes and Series 2 had 8, compared to the 10 from that point forward"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Hi! My name is Ava Ransbotham, and as of 2023 I’m a freshman at Newton South High School. I love swimming, writing, art… and graphs, apparently. email | avaransbotham@gmail.com"
-  },
-  {
-    "objectID": "about.html#about-this-project",
-    "href": "about.html#about-this-project",
-    "title": "About",
-    "section": "About This Project",
-    "text": "About This Project\nGithub Repo | link\nThis project was created for Kane’s Free Data Science Bootcamp, a 4-week course that teaches you the basics of data science visualization (everything in this website I learned through it!).\nI was inspired, of course, by my all time favorite comfort show, and this dataset: bakeoff"
-  },
-  {
-    "objectID": "age/age.html",
-    "href": "age/age.html",
-    "title": "Age?",
-    "section": "",
-    "text": "With age, you can see it going both ways: younger people might know more new techniques, but older people may have had more experience and seen a wider variety of recipes.\n\n\n\n\n\nWhile the graph shows a slight decrease in episodes appeared as age increases, there are also fewer people above the age of 50 in the competition."
-  },
-  {
-    "objectID": "descriptions.html",
-    "href": "descriptions.html",
-    "title": "Description?",
-    "section": "",
-    "text": "For those who don’t watch the show… there are three challenges per episode:\n\n“Signature”: bakers are given a prompt and requirements ahead of time\n“Technical”: the judges choose a dish that all bakers must attempt to recreate with a pared down recipe. Bakers are scored from 1 (first) to however many bakers.\n“Showstopper”: basically the same as the signature, just at a bigger, more complicated scale"
-  },
-  {
-    "objectID": "descriptions.html#description-lengths",
-    "href": "descriptions.html#description-lengths",
-    "title": "Description?",
-    "section": "Description Lengths",
-    "text": "Description Lengths\nDescriptions are provided by the baker. Could a shorter description mean they haven’t thought it through or it’s not complicated enough? Could longer descriptions be more complicated and leave more room for error?\n\nSignature Challenges\n\n\n\n\n\n\n\nShowstopper Challenges"
-  },
-  {
     "objectID": "sources.html",
     "href": "sources.html",
     "title": "Sources",
@@ -63,10 +28,38 @@
     "text": "Inspiration/PSA\nGO WATCH GBBO."
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hi! My name is Ava Ransbotham, and as of 2023 I’m a freshman at Newton South High School. I love swimming, writing, art… and graphs, apparently. email | avaransbotham@gmail.com"
+  },
+  {
+    "objectID": "about.html#about-this-project",
+    "href": "about.html#about-this-project",
+    "title": "About",
+    "section": "About This Project",
+    "text": "About This Project\nGithub Repo | link\nThis project was created for Kane’s Free Data Science Bootcamp, a 4-week course that teaches you the basics of data science visualization (everything in this website I learned through it!).\nI was inspired, of course, by my all time favorite comfort show, and this dataset: bakeoff"
+  },
+  {
     "objectID": "age.html",
     "href": "age.html",
     "title": "Age?",
     "section": "",
     "text": "With age, you can see it going both ways: younger people might know more new techniques, but older people may have had more experience and seen a wider variety of recipes.\n\n\n\n\n\nWhile the graph shows a slight decrease in episodes appeared as age increases, there are also fewer people above the age of 50 in the competition."
+  },
+  {
+    "objectID": "descriptions.html",
+    "href": "descriptions.html",
+    "title": "Description?",
+    "section": "",
+    "text": "For those who don’t watch the show… there are three challenges per episode:\n\n“Signature”: bakers are given a prompt and requirements ahead of time\n“Technical”: the judges choose a dish that all bakers must attempt to recreate with a pared down recipe. Bakers are scored from 1 (first) to however many bakers.\n“Showstopper”: basically the same as the signature, just at a bigger, more complicated scale"
+  },
+  {
+    "objectID": "descriptions.html#description-lengths",
+    "href": "descriptions.html#description-lengths",
+    "title": "Description?",
+    "section": "Description Lengths",
+    "text": "Description Lengths\nDescriptions are provided by the baker. Could a shorter description mean they haven’t thought it through or it’s not complicated enough? Could longer descriptions be more complicated and leave more room for error?\n\nSignature Challenges\n\n\n\n\n\n\n\nShowstopper Challenges"
   }
 ]
