@@ -1,9 +1,14 @@
 ---
 title: "About"
+bibliography: bib/references.bib
 ---
 
 ## About Me
-Hi! My name is Ava Ransbotham, and as of 2023 I'm a freshman at Newton South High School. I love swimming, writing, art... and graphs, apparently. 
+Hi! My name is Ava Ransbotham, and as of 2023 I'm a freshman at Newton South High School. I love swimming, writing, art... and graphs, apparently. email | avaransbotham@gmail.com
 
 ## About This Project
-This project was created for https://bootcamp.davidkane.info/, a 4-week course that teaches you the basics of data science visualization (everything in this website I learned through it!). I was inspired, of course, by my all time favorite comfort show, and this dataset: https://bakeoff.netlify.app/
+Github Repo | [link](https://github.com/avalxnchx/Final-Project)
+
+This project was created for [Kane's Free Data Science Bootcamp](https://bootcamp.davidkane.info/), a 4-week course that teaches you the basics of data science visualization (everything in this website I learned through it!).
+
+I was inspired, of course, by my all time favorite comfort show, and this dataset: [bakeoff](https://bakeoff.netlify.app/)

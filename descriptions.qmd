@@ -6,13 +6,17 @@ title: "Description?"
 
 For those who don't watch the show... there are three challenges per episode:
 
- - "Signature": bakers are given a prompt and requirements ahead of time
+-   "Signature": bakers are given a prompt and requirements ahead of time
 
- - "Technical": the judges choose a dish that all bakers must attempt to recreate with a pared down recipe. Bakers are scored from 1 (first) to however many bakers.
+-   "Technical": the judges choose a dish that all bakers must attempt to recreate with a pared down recipe. Bakers are scored from 1 (first) to however many bakers.
 
- - "Showstopper": basically the same as the signature, just at a bigger, more complicated scale
+-   "Showstopper": basically the same as the signature, just at a bigger, more complicated scale
 
-## Description Lengths of Signature Challenges
+## Description Lengths
+
+Descriptions are provided by the baker. Could a shorter description mean they haven't thought it through or it's not complicated enough? Could longer descriptions *be* more complicated and leave more room for error?
+
+### Signature Challenges
 
 ```{r}
 #| echo: false
@@ -25,7 +29,7 @@ library(bakeoff)
 read_rds("sig_desc_length.rds")
 ```
 
-## Description Lengths of Showstopper Challenges
+### Showstopper Challenges
 
 ```{r}
 #| echo: false

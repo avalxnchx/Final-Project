@@ -10,15 +10,8 @@ age_vs_episodes <- bakers |>
   # that was included had nicknames I didn't want, and so it would be easier to identify people
   # with the same first name
   
-  mutate(season_winner = ifelse(series_winner == 1, "Winner", "Loser")) |>
-  
-  # created a new column with a name instead of a number, so later when I graph it
-  # and set color equal to season_winner, the legend will say "Winner" or "Loser" instead
-  # of 1 or 0
-  
   ggplot(mapping = aes(x = age, 
-                       y = total_episodes_appeared,
-                      color = season_winner)) +
+                       y = total_episodes_appeared)) +
 
   geom_jitter() +
   

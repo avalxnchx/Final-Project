@@ -28,13 +28,13 @@ technical_vs_episodes <- bakers |>
   geom_jitter(width = 0.2, height = 0.2, size = 2, na.rm = TRUE) +
   scale_x_continuous(breaks = c(1:13)) +
   scale_y_continuous(breaks = c(1:10)) +
-  labs(title = "Average Technical Ranking vs. Total Episodes",
+  labs(title = "Median Technical Ranking vs. Total Episodes",
        
        # subtitles don't show up when you make the graph interactive with plotly! I'll include
-       # the conclusion in plain text... I just realized I misread median as mean... I'm going to cry brb
+       # the conclusion in plain text.
       
        
-       x = "Average Technical Ranking (1 being best)",
+       x = "Median Technical Ranking (1 being best)",
        y = "Total Episodes Appeared",
        color = "Final Standing")
 

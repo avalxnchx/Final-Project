@@ -1,0 +1,18 @@
+---
+title: "Sources"
+bibliography: bib/references.bib
+---
+
+## Data
+
+All data used in this project was provided by [bakeoff](https://bakeoff.netlify.app/)
+
+## Resources
+
+-   [Kane's Free Data Science Bootcamp](https://bootcamp.davidkane.info/)
+-   [Preceptor's Primer for Bayesian Data Science](https://ppbds.github.io/primer/)
+-   [Quarto Guide](https://quarto.org/docs/guide/)
+-   [The Great British Bake Off Wiki Page](https://en.wikipedia.org/wiki/The_Great_British_Bake_Off)
+
+## Inspiration/PSA
+GO WATCH GBBO.
