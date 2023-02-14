@@ -4,6 +4,7 @@ library(tidyverse)
 bakers |>
   select(baker_first, baker_last, age, percent_episodes_appeared) |>
   mutate(baker_full = paste(baker_last, baker_first, sep = ", ")) |>
+  mutate(age_group
   ggplot(mapping = aes(x = age)) +
     geom_bar(position = "dodge",
              linewidth = 10)
