@@ -34,6 +34,6 @@ write_rds(age_vs_episodes, "age_vs_episodes.rds")
 # writing as an rds instead of a png in case I want to add an interactive element later; update: decided
 # it somehow feels rude to identify the people's names with an interactive element because it's about their age?
 # For future graphs I will switch to ggsave(), but honestly just don't want to go through changing everything
-# and deleteing old rds files :)
+# and deleting old rds files :)
 
 
