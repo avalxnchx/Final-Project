@@ -4,7 +4,9 @@ bibliography: bib/references.bib
 ---
 
 ## About Me
-Hi! My name is Ava Ransbotham, and as of 2023 I'm a freshman at Newton South High School. I love swimming, writing, art... and graphs, apparently. email | avaransbotham@gmail.com
+Hi! My name is Ava Ransbotham, and as of 2023 I'm a freshman at Newton South High School. I love swimming, writing, art... and graphs, apparently. 
+
+email | avaransbotham@gmail.com
 
 ## About This Project
 Github Repo | [link](https://github.com/avalxnchx/Final-Project)

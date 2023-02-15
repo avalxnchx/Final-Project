@@ -36,7 +36,8 @@ technical_vs_episodes <- bakers |>
        
        x = "Median Technical Ranking (1 being best)",
        y = "Total Episodes Appeared",
-       color = "Final Standing")
+       color = "Final Standing",
+       caption = "Source: bakeoff")
 
 technical_vs_episodes <- ggplotly(technical_vs_episodes, tooltip = "text")
 

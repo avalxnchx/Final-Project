@@ -27,7 +27,8 @@ age_vs_episodes <- bakers |>
   labs(title = "Age vs. Total Episodes Appeared",
        subtitle = "There is little to no correlation between age and how far one makes it in the competition",
        x = "Age",
-       y = "Total Episodes Appeared")
+       y = "Total Episodes Appeared",
+       caption = "Source: bakeoff")
 
 write_rds(age_vs_episodes, "age_vs_episodes.rds")
 

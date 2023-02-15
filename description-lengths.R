@@ -23,7 +23,8 @@ show_desc_length <- challenges |>
   labs(x = "Showstopper Description Length",
        y = "Density",
        title = "Distribution of Description Length by Result",
-       subtitle = "The most common description length for winning showstoppers is 6 words") +
+       subtitle = "The most common description length for winning showstoppers is 6 words",
+       caption = "Source: bakeoff") +
   theme_light()
  
 write_rds(show_desc_length, "show_desc_length.rds")
@@ -39,12 +40,15 @@ sig_desc_length <- challenges |>
   labs(x = "Signature Description Length",
        y = "Density",
        title = "Distribution of Description Length by Result",
-       subtitle = "Most descriptions are around 5 words, but winner's description's are a few words longer")
+       subtitle = "Most descriptions are around 5 words, but winner's description's are a few words longer",
+       caption = "Source: bakeoff")
 
 write_rds(sig_desc_length, "sig_desc_length.rds")
 
 # Also, I'm ignoring the warning message about dropping rows because I know why. When people have been eliminated,
-# their result is NA. This doesn't affect the graph because I only care about people who baked in that episode.
+# their result is NA. This doesn't affect the graph because I only care about people who baked in that episode. BUT,
+# I can't drop the NAs because there are cases where someone was sick or their data is missing for a particular challenge,
+# and I need other info from those rows
 
 
 

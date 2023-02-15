@@ -2,7 +2,7 @@
 title: "Age?"
 ---
 
-## ... it's just a number!
+## ... It's Just a Number!
 
 With age, you can see it going both ways: younger people might know more new techniques, but older people may have had more experience and seen a wider variety of recipes.
 
@@ -19,4 +19,19 @@ read_rds("age_vs_episodes.rds")
 ```
 
 While the graph shows a slight decrease in episodes appeared as age increases, there are also fewer people above the age of 50 in the competition.
+
+## The Number
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+read_rds("age-distribution.rds")
+```
+
+
+
+
+
 
