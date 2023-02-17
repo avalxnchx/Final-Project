@@ -1,5 +1,5 @@
 ---
-title: "What is the recipe for success?"
+title: "What Is the Recipe for Success?"
 ---
 
 BAFTA award winning show *The Great British Bake Off* has had different hosts and judges throughout the years, but it has remained a fan favorite since 2010. This project uses data from the **bakeoff** package in R to examine competitors across 10 series. Their age, challenge scores, and the descriptions of their entries have been graphed to see how each affects their overall results.
