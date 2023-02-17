@@ -1,0 +1,15 @@
+---
+title: "Crash Course"
+---
+## Show
+Twelve amateur bakers from around Great Britain compete in three sets of themed challenges per episode. After each episode, one baker is eliminated and one is crowned "Star Baker." When it gets down to the final three, whoever gets Star Baker is the winner of that year's competition.
+
+## Challenges
+The three challenges are:
+
+-   "Signature": bakers are given prompt, time limit, and requirements ahead of time
+
+-   "Technical": the judges choose a dish that all bakers must attempt to recreate with a pared down recipe. Bakers are scored from 1 (first) to however many bakers remain in the competition.
+
+-   "Showstopper": basically the same as the Signature, just at a bigger, more complicated scale
+

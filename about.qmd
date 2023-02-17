@@ -11,6 +11,6 @@ email | avaransbotham@gmail.com
 ## About This Project
 Github Repo | [link](https://github.com/avalxnchx/Final-Project)
 
-This project was created for [Kane's Free Data Science Bootcamp](https://bootcamp.davidkane.info/), a 4-week course that teaches you the basics of data science visualization (everything in this website I learned through it!).
+This project was created for [Kane's Free Data Science Bootcamp](https://bootcamp.davidkane.info/), a 4-week course that teaches you the basics of data science visualization. I didn't know how to make anything you see on this website before this course!
 
 I was inspired, of course, by my all time favorite comfort show, and this dataset: [bakeoff](https://bakeoff.netlify.app/)

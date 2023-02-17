@@ -23,13 +23,19 @@ bakers2 <- bakers |>
 
   ggplot(mapping = aes(x = age_group)) +
   geom_bar(fill = "paleturquoise2") +
+  
+  # I played around with a histogram of the ages with wider bins and custom labels because
+  # they're numbers, but it just didn't look as clean
+  
   scale_fill_manual() +
   scale_y_continuous(breaks = c(1, 5, 10, 15, 20, 25, 30, 35, 40, 45)) +
-  labs(title = 'Distribution of Age in "The Great British Bake Off"',
+  labs(
+    title = 'Distribution of Age in "The Great British Bake Off"',
        subtitle = "There are about the same number of 30-39-year-olds as 40+-year-olds",
        x = "Age",
        y = "Count",
-       caption = "Source: bakeoff") +
+       caption = "Source: bakeoff"
+    ) +
   theme_light()
 
 write_rds(bakers2, "age-distribution.rds")

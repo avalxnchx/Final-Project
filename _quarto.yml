@@ -8,8 +8,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - descriptions.qmd
+      - crash-course.qmd
       - age.qmd
+      - descriptions.qmd
+      - more-graphs.qmd
       - about.qmd
       - sources.qmd
 

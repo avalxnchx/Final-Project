@@ -1,0 +1,34 @@
+---
+title: "More Graphs!"
+---
+
+## How Much Cake?
+The first thing that comes to mind when you think "baking show" is cake, but how much of it is there on GBBO?
+
+### Signature Challenge
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(bakeoff)
+library(tidyverse)
+library(plotly)
+
+read_rds("cakes_sig.rds")
+```
+*Note: Cake Week's Signature Challenge in series 5 was technically a swiss roll*
+### Showstopper Challenge
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+read_rds("cakes_show.rds")
+```
+
+
+
+
+

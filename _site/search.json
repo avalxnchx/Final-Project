@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "What is the recipe for success?",
     "section": "",
-    "text": "What ingredients make a star baker? Do those pesky technical challenges really matter? Everything you (n)ever wanted to know about Love Production’s The Great British Bake Off is answered, using data from the bakeoff package in R. This data was streamlined and applied to graphs demonstrating certain factors’ effect on competition results.\nAs it turns out, people who scored higher in technicals made it farther overall!\n\n\n\n\n\n\nNote: Series 1 had 6 episodes and Series 2 had 8, compared to the 10 from that point forward"
+    "text": "BAFTA award winning show The Great British Bake Off has had different hosts and judges throughout the years, but it has remained a fan favorite since 2010. This project uses data from the bakeoff package in R to examine competitors across 10 series. Their age, challenge scores, and the descriptions of their entries have been graphed to see how each affects their overall results.\nAs it turns out, people who scored higher in the “Technical Challenge” round made it farther overall!\n\n\n\n\n\n\nNote: Series 1 had 6 episodes and Series 2 had 8, compared to the 10 from that point forward"
   },
   {
     "objectID": "sources.html",
@@ -60,7 +60,7 @@
     "href": "descriptions.html",
     "title": "Description Length?",
     "section": "",
-    "text": "For those who don’t watch the show… there are three challenges per episode:\n\n“Signature”: bakers are given a prompt and requirements ahead of time\n“Technical”: the judges choose a dish that all bakers must attempt to recreate with a pared down recipe. Bakers are scored from 1 (first) to however many bakers.\n“Showstopper”: basically the same as the signature, just at a bigger, more complicated scale"
+    "text": "Descriptions are provided by the baker. Could a shorter description mean they haven’t thought it through or it’s not complicated enough? Could longer descriptions be more complicated and leave more room for error?"
   },
   {
     "objectID": "descriptions.html#description-lengths",
@@ -68,5 +68,33 @@
     "title": "Description Length?",
     "section": "Description Lengths",
     "text": "Description Lengths\nDescriptions are provided by the baker. Could a shorter description mean they haven’t thought it through or it’s not complicated enough? Could longer descriptions be more complicated and leave more room for error?\n\nSignature Challenges\n\n\n\n\n\n\n\nShowstopper Challenges"
+  },
+  {
+    "objectID": "cake.html",
+    "href": "cake.html",
+    "title": "More Graphs!",
+    "section": "",
+    "text": "read_rds(\"cakes_show.rds\")"
+  },
+  {
+    "objectID": "crash-course.html",
+    "href": "crash-course.html",
+    "title": "Crash Course",
+    "section": "",
+    "text": "Twelve amateur bakers from around Great Britain compete in three sets of themed challenges per episode. After each episode, one baker is eliminated and one is crowned “Star Baker.” When it gets down to the final three, whoever gets Star Baker is the winner of that year’s competition."
+  },
+  {
+    "objectID": "crash-course.html#challenges",
+    "href": "crash-course.html#challenges",
+    "title": "Crash Course",
+    "section": "Challenges",
+    "text": "Challenges\nThe three challenges are:\n\n“Signature”: bakers are given prompt, time limit, and requirements ahead of time\n“Technical”: the judges choose a dish that all bakers must attempt to recreate with a pared down recipe. Bakers are scored from 1 (first) to however many bakers remain in the competition.\n“Showstopper”: basically the same as the Signature, just at a bigger, more complicated scale"
+  },
+  {
+    "objectID": "more-graphs.html",
+    "href": "more-graphs.html",
+    "title": "More Graphs!",
+    "section": "",
+    "text": "The first thing that comes to mind when you think “baking show” is cake, but how much of it is there on GBBO?"
   }
 ]

@@ -1,0 +1,16 @@
+{
+  "hash": "e7c2e0b51d48df16e9a46ff84c8dcc9c",
+  "result": {
+    "markdown": "---\ntitle: \"Age?\"\n---\n\n\n## ... it's just a number!\n\nWith age, you can see it going both ways: younger people might know more new techniques, but older people may have had more experience and seen a wider variety of recipes.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](age_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\nWhile the graph shows a slight decrease in episodes appeared as age increases, there are also fewer people above the age of 50 in the competition.\n\n",
+    "supporting": [
+      "age_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
